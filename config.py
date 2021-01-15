@@ -1,7 +1,6 @@
 
 # path of cifar10 data on yout device
 cifar_root = "../cifar10_data"
-cifar_root = "/data/baijiawang/cifar10_data"
 
 
 # path of the quantized model
