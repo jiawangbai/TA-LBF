@@ -1,6 +1,16 @@
 # TA-LBF-master
 This repository provides the implementatin of our ICLR 2021 work: [Targeted Attack against Deep Neural Networks via Flipping Limited Weight Bits](https://openreview.net/forum?id=iKQAk8a2kM0).
 
+## Citation
+If our work is useful for your research, please cite our paper as follows:
+@inproceedings{bai2021targeted,
+  title={Targeted Attack against Deep Neural Networks via Flipping Limited Weight Bits},
+  author={Bai, Jiawang and Wu, Baoyuan and Zhang, Yong and Li, Yiming and Li, Zhifeng and Xia, Shu-Tao},
+  booktitle={ICLR},
+  year={2021}
+}
+
+
 ## Abstract 
 To explore the vulnerability of deep neural networks (DNNs), many attack paradigms have been well studied, such as the poisoning-based backdoor attack in the training stage and the adversarial attack in the inference stage. In this paper, we study a novel attack paradigm, which modifies model parameters in the deployment stage for malicious purposes. Specifically, our goal is to misclassify a specific sample into a target class without any sample modification, while not significantly reduce the prediction accuracy of other samples to ensure the stealthiness. To this end, we formulate this problem as a binary integer programming (BIP), since the parameters are stored as binary bits (*i.e.*, 0 and 1) in the memory. By utilizing the latest technique in integer programming, we equivalently reformulate this BIP problem as a continuous optimization problem, which can be effectively and efficiently solved using the alternating direction method of multipliers (ADMM) method. Consequently, the flipped critical bits can be easily determined through optimization, rather than using a heuristic strategy. Extensive experiments demonstrate the superiority of our method in attacking DNNs.
 
