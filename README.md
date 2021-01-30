@@ -1,4 +1,4 @@
-# TA-LBF-master
+# TA-LBF
 This repository provides the implementatin of our ICLR 2021 work: [Targeted Attack against Deep Neural Networks via Flipping Limited Weight Bits](https://openreview.net/forum?id=iKQAk8a2kM0).
 
 ## Abstract 
@@ -7,7 +7,7 @@ To explore the vulnerability of deep neural networks (DNNs), many attack paradig
 &nbsp;
 &nbsp;
 <div align=center>
-<img src="https://github.com/jiawangbai/TA-LBF-master/blob/main/misc/demo.png" width="700" height="300" alt="Demonstration of TA-LBF"/><br/>
+<img src="https://github.com/jiawangbai/TA-LBF/blob/main/misc/demo.png" width="700" height="300" alt="Demonstration of TA-LBF"/><br/>
 </div>
 &nbsp;
 &nbsp;
@@ -16,7 +16,7 @@ To explore the vulnerability of deep neural networks (DNNs), many attack paradig
 1. Install PyTorch >= 1.5
 2. Clone this repo:
 ```shell
-git clone https://github.com/jiawangbai/TA-LBF-master.git
+git clone https://github.com/jiawangbai/TA-LBF.git
 ```
 
 ## Quick Start
