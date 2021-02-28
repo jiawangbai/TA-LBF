@@ -67,14 +67,10 @@ We also provide the following command to install dependencies before running the
 pip install -r requirements.txt
 ```
 
-<!--
 ## Citation
-```
 @inproceedings{bai2021targeted,
   title={Targeted Attack against Deep Neural Networks via Flipping Limited Weight Bits},
   author={Jiawang Bai, Baoyuan Wu, Yong Zhang, Yiming Li, Zhifeng Li, Shu-Tao Xia},
   booktitle={ICLR},
   year={2021}
 }
-```
--->
