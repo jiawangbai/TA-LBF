@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ```
 @inproceedings{bai2021targeted,
   title={Targeted Attack against Deep Neural Networks via Flipping Limited Weight Bits},
-  author={Jiawang Bai and Baoyuan Wu and Yong Zhang and Yiming Li and Zhifeng Li and Shu-Tao Xia},
+  author={Bai, Jiawang and Wu, Baoyuan and Zhang, Yong and Li, Yiming and Li, Zhifeng and Xia, Shu-Tao},
   booktitle={ICLR},
   year={2021}
 }
